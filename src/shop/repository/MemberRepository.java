@@ -28,4 +28,13 @@ public class MemberRepository {
 
         return member;
     }
+
+    public Member findById(long id) {
+        for (int i = 0; i < size; i++) {
+            if (store[i].getId() == id) {
+                return store[i];
+            }
+        }
+        return null;
+    }
 }
