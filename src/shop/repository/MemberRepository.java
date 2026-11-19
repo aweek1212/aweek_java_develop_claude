@@ -37,4 +37,14 @@ public class MemberRepository {
         }
         return null;
     }
+
+    public Member findByEmail(String email) {
+        for (int i = 0; i < size; i++) {
+            if (store[i].getEmail().equals(email)) {
+                return store[i];
+            }
+        }
+        return null;
+    }
+
 }
