@@ -56,4 +56,7 @@ public class MemberRepository {
         return result;
     }
 
+    public int count() {
+        return size;
+    }
 }
