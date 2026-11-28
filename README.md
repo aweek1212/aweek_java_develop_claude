@@ -36,8 +36,8 @@ java src/shop/ShopMain.java
 
 | 단계 | 미션 | 필요한 진도 | 상태 |
 |---|---|---|---|
-| 1. 기초 쇼핑몰 | [미션 1. 회원 도메인](docs/missions/mission-01-member.md) | 기본편 섹션 8 static 메서드1 | 진행 중 |
-| | 미션 2. 상품 도메인 | 〃 | |
+| 1. 기초 쇼핑몰 | [미션 1. 회원 도메인](docs/missions/mission-01-member.md) | 기본편 섹션 8 static 메서드1 | 완료 |
+| | [미션 2. 상품 도메인](docs/missions/mission-02-item.md) | 〃 | 진행 중 |
 | | 미션 3. 주문 | 〃 | |
 | | 미션 4. 콘솔 화면 | 〃 | |
 | 2. final | 상수와 final 필드 | 기본편 섹션 9 | |
